@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css';
+import "./App.css";
 import Cabecalho from "./componentes/Cabecalho/Cabecalho";
+import Principal from "./componentes/Principal/Principal";
+import Rodape from "./componentes/Rodape/Rodape";
 
 function App() {
-
-  return <>
-    <Cabecalho/>
-    <h1>Ola Mundo</h1>
-    
+  return (
+    <>
+      <Cabecalho />
+      <Principal />
+      <Rodape /> 
     </>
-  
+  );
 }
 
-export default App
+export default App;
