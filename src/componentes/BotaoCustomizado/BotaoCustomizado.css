@@ -1,0 +1,11 @@
+.botao-customizado_root{
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+.botao-customizado_primario{
+    background-color: var(--cor-primaria);
+}
+.botao-customizado_secundario{
+    background-color: var(--cor-secundaria);
+}
