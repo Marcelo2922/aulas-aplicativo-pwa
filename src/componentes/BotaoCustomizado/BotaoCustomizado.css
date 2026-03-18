@@ -1,11 +1,15 @@
-.botao-customizado_root{
-    padding: 16px;
-    border: none;
-    cursor: pointer;
+.botao-customizado__root {
+  padding: 16px;
+  border: none;
+  cursor: pointer;
 }
-.botao-customizado_primario{
-    background-color: var(--cor-primaria);
+
+.botao-customizado__primario {
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto-claro);
 }
-.botao-customizado_secundario{
-    background-color: var(--cor-secundaria);
+
+.botao-customizado__secundario {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto-claro);
 }
