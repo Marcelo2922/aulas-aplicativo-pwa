@@ -7,7 +7,7 @@ function PaginaInicial(){
     return (
       <Principal>
         <BotaoCustomizado tipo="primario" aoClicar={() => navigate('/lista-produtos')}>Lista de Produtos</BotaoCustomizado>
-
+        <BotaoCustomizado tipo="secundario" aoClicar={() => navigate('/lista-tarefas')}>Lista de Tarefas</BotaoCustomizado>
         <BotaoCustomizado tipo="secundario" aoClicar={() => navigate('/blablabla')}>Rota Inválida</BotaoCustomizado>
       </Principal>
     );
