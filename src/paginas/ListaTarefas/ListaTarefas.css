@@ -1,0 +1,15 @@
+.Lista-tarefas_campo-adicionar{
+    display: flex;
+    gap: 8px;
+
+}
+.Lista-tarefas_mensagem-sem-tarefas{
+    text-align: center;
+}
+.Lista-tarefas_tarefa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid var(--cor-cinza);
+}
