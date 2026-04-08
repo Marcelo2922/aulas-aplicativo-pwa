@@ -13,9 +13,9 @@ function BotaoCustomizado({ tipo, aoClicar, children }) {
   }
 
   return (
-  <button className={classes}onClick={aoClicar}>
-    {children}
-  </button>
+    <button className={classes} onClick={aoClicar}>
+      {children}
+    </button>
   );
 }
 
